@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libsockets.a  CMakeFiles/sockets.dir/SocketUDP.cpp.o CMakeFiles/sockets.dir/SocketTCP.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libsockets.a

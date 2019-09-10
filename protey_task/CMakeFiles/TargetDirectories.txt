@@ -1,0 +1,9 @@
+/Users/kalkolay/Downloads/mytask/CMakeFiles/rebuild_cache.dir
+/Users/kalkolay/Downloads/mytask/CMakeFiles/edit_cache.dir
+/Users/kalkolay/Downloads/mytask/CMakeFiles/sockets.dir
+/Users/kalkolay/Downloads/mytask/client/CMakeFiles/rebuild_cache.dir
+/Users/kalkolay/Downloads/mytask/client/CMakeFiles/edit_cache.dir
+/Users/kalkolay/Downloads/mytask/client/CMakeFiles/client.dir
+/Users/kalkolay/Downloads/mytask/server/CMakeFiles/rebuild_cache.dir
+/Users/kalkolay/Downloads/mytask/server/CMakeFiles/edit_cache.dir
+/Users/kalkolay/Downloads/mytask/server/CMakeFiles/server.dir
