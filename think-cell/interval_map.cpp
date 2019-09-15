@@ -42,7 +42,7 @@ public:
         m_map.insert( std::begin(m_map), std::make_pair(keyBegin, val) );
         m_map.insert( std::begin(m_map), std::make_pair(keyEnd, valueEnd) );
 
-        // END
+        // END (unfortunately, does not match Canonicity criteria)
     }
 
     // look-up of the value associated with key
