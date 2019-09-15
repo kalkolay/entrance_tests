@@ -38,3 +38,5 @@ remember that constructions, destructions and assignments are operations as well
 Do not make more than two operations of amortized O(log N), in contrast to O(1), running time, where N is the number of elements in m_map. Any operation that needs to find a position in the map "from scratch", without being given a nearby position, is such an operation.
 Otherwise favor simplicity over minor speed improvements.
 You should not take longer than 9 hours, but you may of course be faster. Do not rush, we would not give you this assignment if it were trivial.
+
+You will be given two attempts to complete this task.
