@@ -63,13 +63,12 @@ static void Init(void)
 
 	graph2 = new Processor*[numCPU];
 
-    std::vector<double> cores = calculateCoreConsumption();
 	for (int i = 0; i < numCPU; ++i)
 	{
 		std::ostringstream title;
 		title << "Core " << i + 1;
 
-		graph2[i] = new Processor( i, cores, {50, 50, (double)(120 + i % 2 * 60), (double)(i / 2 * 70 + 10)}, title.str() );
+		graph2[i] = new Processor( i, {50, 50, (double)(120 + i % 2 * 60), (double)(i / 2 * 70 + 10)}, title.str() );
 		graph2[i]->start();
 	}
 }
@@ -114,9 +113,7 @@ int main()
 	glewExperimental = GL_TRUE;
 
 	if (glewInit() != GLEW_OK)
-	{
 		return EXIT_FAILURE;
-	}
 
 	Init();
 

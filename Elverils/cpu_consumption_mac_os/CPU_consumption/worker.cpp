@@ -147,5 +147,5 @@ void Worker::start()
 	pthread_t tid;
 	pthread_attr_t attr;
 	pthread_attr_init(&attr);
-	pthread_create(&tid, &attr, StaticThreadStart, (void*) this);
+	pthread_create(&tid, &attr, StaticThreadStart, (void*)this);
 }
