@@ -1,0 +1,48 @@
+{
+  "homebrew_version": "2.7.0",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "bin/freetype-config",
+    "lib/pkgconfig/freetype2.pc"
+  ],
+  "time": 1617915333,
+  "source_modified_time": 1603170901,
+  "compiler": "clang",
+  "aliases": [
+    "freetype2"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "libpng",
+      "version": "1.6.37"
+    }
+  ],
+  "source": {
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/freetype.rb",
+    "tap": "homebrew/core",
+    "spec": "stable",
+    "versions": {
+      "stable": "2.10.4",
+      "head": "",
+      "version_scheme": 0
+    },
+    "tap_git_head": "ebf9eb47fa0831f91d62f1e8fbcf4c15f2969970"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 11.1",
+    "cpu_family": "arm_vortex_tempest",
+    "xcode": "12.3",
+    "clt": "12.3.0.0.1.1607026830"
+  }
+}
