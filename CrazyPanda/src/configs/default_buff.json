@@ -1,0 +1,9 @@
+{
+  "ident": "eagle_eye",
+  "filters": [
+      { "level": ">= 4" },
+      { "type": "Range" }
+  ],
+  "type": "DamageBuff",
+  "value": 10
+}
